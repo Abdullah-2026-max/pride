@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PRIDE – Free Pickup Community</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial; margin: 0; background: #f4f4f4; }
+    header { background: #222; color: #fff; padding: 15px; text-align: center; }
+    .container { padding: 20px; max-width: 900px; margin: auto; }
+    .card { background: #fff; padding: 15px; margin-bottom: 15px; border-radius: 6px; }
+    button { padding: 10px; background: #222; color: #fff; border: none; cursor: pointer; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 6px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PRIDE</h1>
+  <p>Free items • Pickup only • Local to your country</p>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Post a Free Item</h2>
+    <p>Minimum 5 images required</p>
+    <input placeholder="Item title" />
+    <textarea placeholder="Description"></textarea>
+    <input placeholder="Exact pickup address" />
+    <input type="file" multiple />
+    <button disabled>Post Item (login required)</button>
+  </div>
+
+  <div class="card">
+    <h2>Available Items Near You</h2>
+    <p>(Country-based filtering will apply)</p>
+    <p>No items yet.</p>
+  </div>
+</div>
+
+</body>
+</html>
 
